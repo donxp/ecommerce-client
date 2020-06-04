@@ -2,25 +2,32 @@
     <div class="header">
         <div class="uk-container uk-flex uk-flex-between uk-flex-middle">
             <div class="logo">
-                Ecommerce
+                Auto parts
             </div>
             <div class="header-items uk-flex uk-flex-middle uk-flex-1 uk-flex-around">
                 <div class="header-search-bar uk-inline">
                     <span class="uk-form-icon" uk-icon="search"></span>
                     <input type="text" class="uk-input" placeholder="Search">
                 </div>
-                <div class="header-basket">
+                <div class="header-cart">
                     <span uk-icon="cart"></span>
                     Cart
                 </div>
-                <div class="header-basket">
-                    <span uk-icon="user"></span>
-                    User
+                <div class="header-user">
+                    <UserDropdown />
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+import UserDropdown from './UserDropdown'
+
+export default {
+    components: { UserDropdown }
+}
+</script>
 
 <style scoped>
 .header {
@@ -40,13 +47,10 @@
 
 .header-items {
     max-width: 65%;
+    color: black;
 }
 
 .header-search-bar {
     min-width: 60%;
-}
-
-.header-basket {
-    color: black;
 }
 </style>
