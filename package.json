@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "My mathematical Nuxt.js project",
+  "author": "Don",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0"
+  },
+  "devDependencies": {}
+}
