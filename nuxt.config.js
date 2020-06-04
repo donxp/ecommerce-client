@@ -19,19 +19,16 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
   loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
   css: [
+    
+    '@/assets/scss/main.scss'
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
   plugins: [
+    {
+      src: '~/plugins/uikit',
+      ssr: false
+    }
   ],
   /*
   ** Nuxt.js dev-modules

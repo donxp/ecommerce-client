@@ -6,7 +6,10 @@ COPY package*.json .
 
 RUN yarn
 
+RUN npm rebuild node-sass
+
 COPY . .
+
 
 EXPOSE 3000
 
