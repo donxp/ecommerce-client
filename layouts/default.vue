@@ -5,14 +5,16 @@
     <div class="uk-container uk-margin-small-top">
       <nuxt />
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default {
-  components: { Header, Navbar }
+  components: { Header, Navbar, Footer }
 }
 </script>

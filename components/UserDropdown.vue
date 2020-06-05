@@ -21,6 +21,17 @@
                             <input class="uk-input" id="form-stacked-text" type="password" placeholder="Password">
                         </div>
                     </div>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-right">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </div>
+                    <div class="uk-margin-auto uk-margin uk-width-2-3">
+                        <button class="uk-button uk-button-secondary uk-width-1-1">Sign In</button>
+                        <p class="uk-text-center uk-margin-small-top uk-margin-small-bottom">OR</p>
+                        <button class="uk-button uk-button-secondary uk-width-1-1">Login with Facebook</button>
+                        <p class="uk-text-center">New member? <a href="#">Register now</a></p>
+                    </div>
                 </form>
             </div>
         </div>
