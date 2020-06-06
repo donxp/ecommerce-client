@@ -30,7 +30,7 @@
                         <button class="uk-button uk-button-secondary uk-width-1-1">Sign In</button>
                         <p class="uk-text-center uk-margin-small-top uk-margin-small-bottom">OR</p>
                         <button class="uk-button uk-button-secondary uk-width-1-1">Login with Facebook</button>
-                        <p class="uk-text-center">New member? <a href="#">Register now</a></p>
+                        <p class="uk-text-center">New member? <n-link to="/auth/signup">Register now</n-link></p>
                     </div>
                 </form>
             </div>

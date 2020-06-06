@@ -2,7 +2,7 @@
     <div class="header">
         <div class="uk-container uk-flex uk-flex-between uk-flex-middle">
             <div class="logo">
-                Auto parts
+                <n-link to="/">Auto parts</n-link>
             </div>
             <div class="header-items uk-flex uk-flex-middle uk-flex-1 uk-flex-around">
                 <div class="header-search-bar uk-inline">
@@ -43,6 +43,11 @@ export default {
     color: black;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: black;
 }
 
 .header-items {
