@@ -10,8 +10,10 @@
                     <input type="text" class="uk-input" placeholder="Search">
                 </div>
                 <div class="header-cart">
-                    <span uk-icon="cart"></span>
-                    Cart
+                    <n-link to="/cart">
+                        <span uk-icon="cart"></span>
+                        Cart
+                    </n-link>
                 </div>
                 <div class="header-user">
                     <UserDropdown />
@@ -57,5 +59,10 @@ export default {
 
 .header-search-bar {
     min-width: 60%;
+}
+
+.header-cart > a {
+    color: black;
+    text-decoration: none;
 }
 </style>
