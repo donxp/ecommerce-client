@@ -9,9 +9,9 @@
                     <div class="product-title">{{ item.name }}</div>
                     <div class="product-price">GBP £{{ item.price }}</div>
                     <div class="product-quantity">
-                        <button class="uk-button">-</button>
+                        <button class="uk-button uk-button-small">-</button>
                         <input type="text" class="uk-input uk-form-width-xsmall">
-                        <button class="uk-button">+</button>
+                        <button class="uk-button uk-button-small">+</button>
                     </div>
                 </div>
             </div>
@@ -47,6 +47,7 @@ export default {
 
 .product-details {
     color: black;
+    padding-left: 20px;
 }
 
 .product-details > .product-title {
