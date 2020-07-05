@@ -2,7 +2,7 @@
   <div>
     <Header />
     <Navbar />
-    <div class="uk-container uk-margin-small-top">
+    <div class="uk-margin-small-top">
       <nuxt />
     </div>
     <Footer />

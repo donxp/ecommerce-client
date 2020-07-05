@@ -1,10 +1,6 @@
 <template>
     <div class="cart-total">
-        <h4 class="title">Add Promo Code</h4>
-        <div class="promo-code">
-            <input type="text" class="uk-input">
-            <button class="uk-button uk-button-secondary uk-margin-small-top">Add</button>
-        </div>
+        <CartPromoCode />
         <h4 class="title">Summary</h4>
         <div class="summary">
             <div class="uk-flex uk-flex-between">
@@ -32,6 +28,13 @@
         </div>
     </div>
 </template>
+
+<script>
+import CartPromoCode from './CartPromoCode'
+export default {
+    components: { CartPromoCode }
+}
+</script>
 
 <style scoped>
 .cart-total {
